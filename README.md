@@ -8,25 +8,21 @@ To write a program to implement the K Means Clustering for Customer Segmentation
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1.Start the program
-
-2.Import pandas and matplotlib.pyplot.
-
-3.Read the dataset and transform it.
-
-4.Import KMeans and fit the data in the model.
-
-5.Plot the Cluster graph.
-
-6.End the program
+1. Start the program 
+2. Import pandas and matplotlib.pyplot.
+3. Read the dataset and transform it.
+4. Import KMeans and fit the data in the model.
+5. Plot the Cluster graph.
+6. End the program
 
 ## Program:
 ```
-/*
 Program to implement the K Means Clustering for Customer Segmentation.
-Developed by: M GANESAN
-RegisterNumber:  212223080013
-*/
+Developed by: GOWTHAM S
+RegisterNumber: 2305002008 
+
+```
+```
 import pandas as pd
 import matplotlib.pyplot as plt
 data = pd.read_csv("/content/Mall_Customers.csv")
@@ -60,11 +56,9 @@ plt.scatter(df3["Annual Income (k$)"],df3["Spending Score (1-100)"],c="green",la
 plt.scatter(df4["Annual Income (k$)"],df4["Spending Score (1-100)"],c="magenta",label="cluster4")
 plt.legend()
 plt.title("Customer Segments")
-
 ```
 
 ## Output:
-
 data.head() function
 
 ![328404906-6e5299f4-6f89-4c71-8bce-39f38673b955](https://github.com/23014226/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/160568974/95b0a790-f03e-4241-9db8-4f5fc54c57c0)
@@ -91,5 +85,8 @@ Customer segments Graph
 
 ![328406160-fb70157f-8859-494e-af78-ecd0e2a63455](https://github.com/23014226/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/160568974/7fc8ad9d-f40d-457a-a20b-a53b3455ea76)
 
+
+
 ## Result:
 Thus the program to implement the K Means Clustering for Customer Segmentation is written and verified using python programming.
+
